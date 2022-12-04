@@ -1,0 +1,42 @@
+.createRoomForm{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+
+.createRoomForm input{
+    padding: 1vw;
+    outline: none;
+}
+
+.roomKey{
+    color: #1a237e;
+    margin: 1vw;
+    /* margin-top: 5vw; */
+    border:0.1vw solid #1a237e;
+    padding: 0.4vw;
+    border-radius: 0.7vw;
+    text-align: center;
+}       
+.roomKey:hover{
+    cursor: pointer;
+    background-color: #1a237e;
+    color: white;
+}
+
+.submitBtn{
+    background: linear-gradient(to left,#396afc,#2948ff);
+}
+
+.createRoomForm .keyBtn:hover{
+    background-color: #1a237e;
+    color: white;
+}
+
+.createRoomForm .submitBtn:hover{
+    background-color: #3f51b5;
+    color: black;
+}
+

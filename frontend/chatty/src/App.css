@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap'); 
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+.App{
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3vw;
+  padding:1vw ;
+  padding-right: 0;
+  width: 40vw;
+}
+
+.btn{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.btn button{
+  padding: 1vw;
+  background: linear-gradient(to left,#396afc,#2948ff) ;
+  color: white;
+}
+.btn Button:hover{
+  color: black;
+  background-color: #3f51b5;
+}

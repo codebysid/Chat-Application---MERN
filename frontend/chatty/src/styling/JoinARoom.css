@@ -1,0 +1,21 @@
+.joinARoomForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    gap: 1.5vw;
+}
+
+.joinBtn{
+    background: linear-gradient(to left,#396afc,#2948ff);
+}
+.joinBtn:hover{
+    background-color: #3f51b5;
+    color: #171717
+    ;
+}
+
+.exceptChat{
+    display: flex;
+    gap: 4vw;
+}
