@@ -12,7 +12,7 @@ const io = require("socket.io")(server, {
 app.use(cors())
 app.use(express.json())
 
-const uri = `mongodb+srv://sid:sid5263@cluster0.jhbls8m.mongodb.net/?retryWrites=true&w=majority`
+const uri = `Enter Your URI here`
 const client = new mongoClient(uri)
 
 var newMemberNotification
